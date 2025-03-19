@@ -1,80 +1,119 @@
-Task Manager Web Application :
-A task manager app inspired by JIRA to effectively manage your daily tasks. It provides multiple views, notifications, and a responsive design.
+## Task Manager Web Application
 
-Features :
-Multiple Views to Manage Tasks:
+# Overview
+
+A Agile task manager web application designed to streamline daily task management. It features multiple task views, real-time notifications, and a fully responsive interface for a seamless user experience.
+
+# Features
+
+- Multiple Views to Manage Tasks
 
 List View:
+
 Drag and drop tasks to change their status.
+
 Expand tasks to view detailed information.
 
 Calendar View:
+
 Navigate tasks through a custom calendar.
+
 Highlighted days indicate tasks:
-Green Border: Completed tasks.
-Red Border: Uncompleted tasks.
+
+✅ Green Border: Completed tasks.
+
+❌ Red Border: Uncompleted tasks.
 
 Board View:
+
 Drag and drop tasks between columns to update their status.
+
 View detailed task information using dropdown icons.
-Notifications:
 
-Get notified for every action you perform, ensuring smooth task management.
-Responsive Design:
+# Notifications
 
-Fully responsive for optimal usability on any device.
-Setting Up the Development Environment
+Get notified for every action you perform to ensure seamless task management.
 
-Prerequisites:
+# Responsive Design
 
-Ensure Node.js is installed on your machine.
-Installing Dependencies:
+Fully responsive UI to provide a seamless experience across different devices.
 
-The project does not include the node_modules folder. Follow these steps:
-Open your command line.
+# Tech Stack
 
-Navigate to both directories:
-frontend/task-manager-app/
-backend/
-Run the following command in each directory to install dependencies:
-bash
-Copy code
-npm install
-Running the Application:
-
-After installing dependencies, start the application:
-In the frontend/task-manager-app/ directory, run:
-bash
-Copy code
-npm start
-
-In the backend/ directory, run:
-bash
-Copy code
-npm start
-
-Tech Stack :
 Frontend: React.js
+
 Backend: Node.js, Express.js
+
 Database: MongoDB
+
 Styling: CSS
 
-Libraries:
-React Calendar
-Drag and Drop libraries (e.g., react-beautiful-dnd)
-Contributing
-Fork the Repository.
+# Libraries Used
 
-Create a Feature Branch:
-bash
-Copy code
-git checkout -b feature-name
-Commit Your Changes:
-bash
-Copy code
-git commit -m "Add feature description"
-Push to the Branch:
-bash
-Copy code
-git push origin feature-name
-Submit a Pull Request.
+React Calendar for task scheduling.
+
+react-beautiful-dnd for drag-and-drop functionality.
+
+# Setting Up the Development Environment
+
+# Prerequisites
+
+Ensure that you have Node.js installed on your machine.
+
+# Installing Dependencies
+
+Since the node_modules folder is not included in the repository, install dependencies by following these steps:
+
+1. Open your command line.
+
+2. Navigate to both frontend and backend directories:
+```
+ cd frontend/task-manager-app/
+ npm install
+
+cd backend/
+npm install
+```
+# Running the Application
+
+After installing dependencies, start the application:
+
+- Frontend:
+```
+cd frontend/task-manager-app/
+npm start
+```
+- Backend:
+```
+cd backend/
+npm start
+```
+# Contributing
+
+We welcome contributions! Follow these steps to contribute:
+
+1.Fork the repository.
+
+2.Create a feature branch:
+
+`git checkout -b feature-name`
+
+3.Commit your changes:
+
+`git commit -m "Add feature description"`
+
+4.Push to the branch:
+
+`git push origin feature-name`
+
+5.Submit a pull request for review.
+
+# License
+
+This project is licensed under the MIT License.
+
+# Contact
+
+For any questions or collaborations, feel free to reach out!
+
+
