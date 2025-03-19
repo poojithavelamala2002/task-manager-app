@@ -1,20 +1,20 @@
-## Task Manager Web Application
+# Task Manager Web Application
 
-# Overview
+## Overview
 
 A Agile task manager web application designed to streamline daily task management. It features multiple task views, real-time notifications, and a fully responsive interface for a seamless user experience.
 
-# Features
+## Features
 
-- Multiple Views to Manage Tasks
+### Multiple Views to Manage Tasks
 
-List View:
+- List View:
 
 Drag and drop tasks to change their status.
 
 Expand tasks to view detailed information.
 
-Calendar View:
+- Calendar View:
 
 Navigate tasks through a custom calendar.
 
@@ -24,43 +24,43 @@ Highlighted days indicate tasks:
 
 ❌ Red Border: Uncompleted tasks.
 
-Board View:
+- Board View:
 
 Drag and drop tasks between columns to update their status.
 
 View detailed task information using dropdown icons.
 
-# Notifications
+## Notifications
 
 Get notified for every action you perform to ensure seamless task management.
 
-# Responsive Design
+## Responsive Design
 
 Fully responsive UI to provide a seamless experience across different devices.
 
-# Tech Stack
+## Tech Stack
 
-Frontend: React.js
+- Frontend: React.js
 
-Backend: Node.js, Express.js
+- Backend: Node.js, Express.js
 
-Database: MongoDB
+- Database: MongoDB
 
-Styling: CSS
+- Styling: CSS
 
-# Libraries Used
+## Libraries Used
 
 React Calendar for task scheduling.
 
 react-beautiful-dnd for drag-and-drop functionality.
 
-# Setting Up the Development Environment
+## Setting Up the Development Environment
 
-# Prerequisites
+- Prerequisites
 
 Ensure that you have Node.js installed on your machine.
 
-# Installing Dependencies
+- Installing Dependencies
 
 Since the node_modules folder is not included in the repository, install dependencies by following these steps:
 
@@ -74,7 +74,7 @@ Since the node_modules folder is not included in the repository, install depende
 cd backend/
 npm install
 ```
-# Running the Application
+## Running the Application
 
 After installing dependencies, start the application:
 
@@ -88,7 +88,7 @@ npm start
 cd backend/
 npm start
 ```
-# Contributing
+## Contributing
 
 We welcome contributions! Follow these steps to contribute:
 
@@ -108,11 +108,11 @@ We welcome contributions! Follow these steps to contribute:
 
 5.Submit a pull request for review.
 
-# License
+## License
 
 This project is licensed under the MIT License.
 
-# Contact
+## Contact
 
 For any questions or collaborations, feel free to reach out!
 
